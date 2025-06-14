@@ -2,3 +2,78 @@ main,
 footer {
   display: flex;
 }
+
+
+
+.logo {
+  display: flex;
+  background-color: #121c52;
+  text-align: center;
+  justify-content: center;
+}
+
+.sidebar {
+
+  background-color: yellow;
+  color: blue;
+}
+
+.content {
+  background-color: cyan;
+  width: 93%;
+  
+}
+
+body > div > main > section.content > img {
+  width:100% ;
+}
+
+hr {
+  color: pink;
+}
+
+.content {
+
+}
+
+body > div > main > section.content > p:nth-child(4)  {
+  background-color: black;
+  color: white;
+}
+
+body > div > main > section.content > p:nth-child(7) {
+  background-color: green;
+  color: white;
+}
+
+body > div > main > section.content > ul:nth-child(8) > li:nth-child(even) {
+  color: red;
+}
+
+body > div > main > section.content > ul:nth-child(11) > li > a {
+  color: red;
+}
+
+body > div > main > section.content > ul:nth-child(12) > li > a {
+  color: red;
+}
+
+body > div > main > section.content > ul:nth-child(13) > li > a {
+  color: red;
+}
+
+body > div > footer > div:nth-child(1) > p {
+  background-color: pink;
+  margin-top: auto;
+}
+
+body > div > footer > div:nth-child(2) > p {
+  background-color: brown;
+  color: white;
+  margin-top: auto;
+}
+
+body > div > footer > div:nth-child(3) > p {
+  background-color: gray;
+  margin-top: auto;
+}
